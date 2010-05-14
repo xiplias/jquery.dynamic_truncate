@@ -1,3 +1,16 @@
+//
+// jQuery Dynamic Truncate 1.0 Beta (14 Maj 2010)
+// http://github.com/xiplias/jquery.dynamic_truncate
+//
+// Tested with 1.4.2
+//   
+// Dual licensed under the MIT and GPL licenses:
+// http://www.opensource.org/licenses/mit-license.php
+// http://www.gnu.org/licenses/gpl.html
+//
+// Created by Anders Hansen
+//
+
 (function($) {
   $.dynamic_truncate = function(th, options) {
     var t = this;
