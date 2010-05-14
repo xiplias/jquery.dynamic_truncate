@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>jquery.dynamic_truncate.js test page</title>
+    <style type="text/css">
+      body{
+        margin: 30px;
+      }
+      
+      .dtc {
+        background: #f1f1f1;
+        margin: 10px;
+        padding: 10px;
+        border: 3px #999 solid;
+      }
+      
+      .dtc_perserve {
+        
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.dynamic_truncate.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".dtc").dynamic_truncate();
+      })
+    </script>
+  </head>
+  <body>
+    <h3>Test 1 - Basic Truncate Text</h3>
+    <div class="dtc" id="test1">
+      <span class="dtc_text">This a truncate test. If it works - Good for you and the rest of the world. Potatoes is the real enemy here, you just don't see it yet</div>
+    </div>
+    <h3>Test 2 - Truncate but preserve "Preserve Me"</h3>
+    <div class="dtc" id="test2">
+      <span class="dtc_text">Cut me like the summer of yesterday afternoon after supper</span>
+      <span class="dtc_perserve">Preserve Me</span>
+    </div>
+    
+  </body>
+</html>
